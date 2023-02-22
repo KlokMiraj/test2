@@ -1,7 +1,15 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import { Amplify} from 'aws-amplify';
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
+
+class App extends React.Component {
+
+  render(){
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +30,7 @@ function App() {
   );
 }
 
+}
+
 export default App;
+
