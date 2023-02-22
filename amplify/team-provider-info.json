@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-test2-dev-101323-unauthRole",
       "StackName": "amplify-test2-dev-101323",
       "StackId": "arn:aws:cloudformation:eu-west-2:999294603043:stack/amplify-test2-dev-101323/8ad2e1d0-b299-11ed-94a2-0651a7f6b854",
-      "AmplifyAppId": "d3t83r1joo6ya4"
+      "AmplifyAppId": "d3t83r1joo6ya4",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-test2-dev-101323-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
@@ -17,6 +18,15 @@
       },
       "hosting": {
         "S3AndCloudFront": {}
+      },
+      "function": {
+        "testlam": {
+          "deploymentBucketName": "amplify-test2-dev-101323-deployment",
+          "s3Key": "amplify-builds/testlam-77777862346d62397552-build.zip"
+        }
+      },
+      "api": {
+        "todos": {}
       }
     }
   }
