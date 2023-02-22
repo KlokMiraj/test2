@@ -7,6 +7,7 @@
     "@aws-amplify/interactions": "^5.0.15",
     "@aws-amplify/storage": "^5.1.5",
     "@aws-amplify/ui": "^5.5.5",
+    "@aws-amplify/ui-react": "^4.3.8",
     "@aws-amplify/xr": "^4.0.15",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
